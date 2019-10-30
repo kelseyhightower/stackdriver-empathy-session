@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gcloud pubsub subscriptions create empathy \
+  --topic empathy \
+  --topic-project $(gcloud config get-value project)

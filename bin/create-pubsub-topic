@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gcloud pubsub topics create empathy
